@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NativeRNDemo' do
+ # 取决于你的工程如何组织，你的node_modules文件夹可能会在别的地方。
+# 请将:path后面的内容修改为正确的路径。
+pod 'React', :path => ‘./RNComponent/node_modules/react-native', :subspecs => [
+  'Core',
+  'ART',
+  'CxxBridge',
+  'DevSupport',
+  'RCTActionSheet',
+  'RCTGeolocation',
+  'RCTImage',
+  'RCTNetwork',
+  'RCTPushNotification',
+  'RCTSettings',
+  'RCTText',
+  'RCTVibration',
+  'RCTWebSocket',
+  'RCTLinkingIOS',
+]
+#需要的模块依赖进来便可，这里是为了举例子，列举所有的模块
+  pod "yoga", :path => "./RNComponent/node_modules/react-native/ReactCommon/yoga"
+  pod 'DoubleConversion', :podspec => './RNComponent/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'GLog', :podspec => './RNComponent/node_modules/react-native/third-party-podspecs/GLog.podspec'
+  pod 'Folly', :podspec => './RNComponent/node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+pod 'CodePush', :path => './RNComponent/node_modules/react-native-code-push'
+
+pod 'SDWebImage'
+
+end

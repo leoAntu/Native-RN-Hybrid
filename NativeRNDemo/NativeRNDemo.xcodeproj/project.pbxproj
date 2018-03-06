@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B45E5C00D19CBC278366F24 /* libPods-NativeRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7F4ED21C2F6B43C34D6232 /* libPods-NativeRNDemo.a */; };
+		F751EBC7204D1C26004105E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBC6204D1C26004105E5 /* AppDelegate.m */; };
+		F751EBCD204D1C26004105E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F751EBCB204D1C26004105E5 /* Main.storyboard */; };
+		F751EBCF204D1C26004105E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F751EBCE204D1C26004105E5 /* Assets.xcassets */; };
+		F751EBD2204D1C26004105E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F751EBD0204D1C26004105E5 /* LaunchScreen.storyboard */; };
+		F751EBD5204D1C26004105E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBD4204D1C26004105E5 /* main.m */; };
+		F751EBDE204D4285004105E5 /* InitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBDD204D4285004105E5 /* InitRootViewController.m */; };
+		F751EBE7204D433C004105E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBE6204D433C004105E5 /* RootViewController.m */; };
+		F751EBEB204D4C88004105E5 /* CommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBEA204D4C88004105E5 /* CommunicationController.m */; };
+		F751EBEE204E3000004105E5 /* NativetoRNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBED204E3000004105E5 /* NativetoRNManager.m */; };
+		F751EBF1204E3FD4004105E5 /* RNtoNativeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBF0204E3FD4004105E5 /* RNtoNativeManager.m */; };
+		F751EBF5204E6D22004105E5 /* TestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBF4204E6D22004105E5 /* TestScrollView.m */; };
+		F751EBF8204E6D7D004105E5 /* TestScrollControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBF7204E6D7D004105E5 /* TestScrollControllerViewController.m */; };
+		F751EC09204E746A004105E5 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBFD204E746A004105E5 /* SDCycleScrollView.m */; };
+		F751EC0A204E746A004105E5 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBFE204E746A004105E5 /* UIView+SDExtension.m */; };
+		F751EC0B204E746A004105E5 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EBFF204E746A004105E5 /* SDCollectionViewCell.m */; };
+		F751EC0C204E746A004105E5 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EC02204E746A004105E5 /* TADotView.m */; };
+		F751EC0D204E746A004105E5 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EC03204E746A004105E5 /* TAPageControl.m */; };
+		F751EC0E204E746A004105E5 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EC04204E746A004105E5 /* TAAnimatedDotView.m */; };
+		F751EC0F204E746A004105E5 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EC05204E746A004105E5 /* TAAbstractDotView.m */; };
+		F751EC12204E74F7004105E5 /* TestScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F751EC11204E74F7004105E5 /* TestScrollViewManager.m */; };
+		F751EC1C204EBB5E004105E5 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = F751EC1B204EBB5D004105E5 /* index.jsbundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E7F4ED21C2F6B43C34D6232 /* libPods-NativeRNDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeRNDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3132C36672674F840C430494 /* Pods-NativeRNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNDemo/Pods-NativeRNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0129ABC4FD8FE8DEB5DBC4 /* Pods-NativeRNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNDemo/Pods-NativeRNDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F751EBC2204D1C26004105E5 /* NativeRNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeRNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F751EBC5204D1C26004105E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F751EBC6204D1C26004105E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F751EBCC204D1C26004105E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F751EBCE204D1C26004105E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F751EBD1204D1C26004105E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F751EBD3204D1C26004105E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F751EBD4204D1C26004105E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F751EBDC204D4285004105E5 /* InitRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitRootViewController.h; sourceTree = "<group>"; };
+		F751EBDD204D4285004105E5 /* InitRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitRootViewController.m; sourceTree = "<group>"; };
+		F751EBE5204D433C004105E5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F751EBE6204D433C004105E5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F751EBE9204D4C88004105E5 /* CommunicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunicationController.h; sourceTree = "<group>"; };
+		F751EBEA204D4C88004105E5 /* CommunicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunicationController.m; sourceTree = "<group>"; };
+		F751EBEC204E3000004105E5 /* NativetoRNManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativetoRNManager.h; sourceTree = "<group>"; };
+		F751EBED204E3000004105E5 /* NativetoRNManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativetoRNManager.m; sourceTree = "<group>"; };
+		F751EBEF204E3FD4004105E5 /* RNtoNativeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNtoNativeManager.h; sourceTree = "<group>"; };
+		F751EBF0204E3FD4004105E5 /* RNtoNativeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNtoNativeManager.m; sourceTree = "<group>"; };
+		F751EBF3204E6D22004105E5 /* TestScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScrollView.h; sourceTree = "<group>"; };
+		F751EBF4204E6D22004105E5 /* TestScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollView.m; sourceTree = "<group>"; };
+		F751EBF6204E6D7D004105E5 /* TestScrollControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScrollControllerViewController.h; sourceTree = "<group>"; };
+		F751EBF7204E6D7D004105E5 /* TestScrollControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollControllerViewController.m; sourceTree = "<group>"; };
+		F751EBFA204E746A004105E5 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		F751EBFB204E746A004105E5 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		F751EBFC204E746A004105E5 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		F751EBFD204E746A004105E5 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		F751EBFE204E746A004105E5 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		F751EBFF204E746A004105E5 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		F751EC01204E746A004105E5 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		F751EC02204E746A004105E5 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		F751EC03204E746A004105E5 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		F751EC04204E746A004105E5 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		F751EC05204E746A004105E5 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		F751EC06204E746A004105E5 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		F751EC07204E746A004105E5 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		F751EC08204E746A004105E5 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		F751EC10204E74F7004105E5 /* TestScrollViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScrollViewManager.h; sourceTree = "<group>"; };
+		F751EC11204E74F7004105E5 /* TestScrollViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollViewManager.m; sourceTree = "<group>"; };
+		F751EC1B204EBB5D004105E5 /* index.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.jsbundle; path = RNComponent/bundle/index.jsbundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F751EBBF204D1C26004105E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B45E5C00D19CBC278366F24 /* libPods-NativeRNDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2D6B7B5C6E5097B7AAF5FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3132C36672674F840C430494 /* Pods-NativeRNDemo.debug.xcconfig */,
+				5C0129ABC4FD8FE8DEB5DBC4 /* Pods-NativeRNDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD2C5EE068EA57C862AEC930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F4ED21C2F6B43C34D6232 /* libPods-NativeRNDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F751EBB9204D1C25004105E5 = {
+			isa = PBXGroup;
+			children = (
+				F751EBC4204D1C26004105E5 /* NativeRNDemo */,
+				F751EBC3204D1C26004105E5 /* Products */,
+				6C2D6B7B5C6E5097B7AAF5FD /* Pods */,
+				AD2C5EE068EA57C862AEC930 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F751EBC3204D1C26004105E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F751EBC2204D1C26004105E5 /* NativeRNDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F751EBC4204D1C26004105E5 /* NativeRNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F751EC1B204EBB5D004105E5 /* index.jsbundle */,
+				F751EBF2204E6CAA004105E5 /* 3.nativeComponentUI */,
+				F751EBE8204D4C6B004105E5 /* 2. communication */,
+				F751EBDB204D4267004105E5 /* 1.InitRootView */,
+				F751EBC5204D1C26004105E5 /* AppDelegate.h */,
+				F751EBC6204D1C26004105E5 /* AppDelegate.m */,
+				F751EBE5204D433C004105E5 /* RootViewController.h */,
+				F751EBE6204D433C004105E5 /* RootViewController.m */,
+				F751EBCB204D1C26004105E5 /* Main.storyboard */,
+				F751EBCE204D1C26004105E5 /* Assets.xcassets */,
+				F751EBD0204D1C26004105E5 /* LaunchScreen.storyboard */,
+				F751EBD3204D1C26004105E5 /* Info.plist */,
+				F751EBD4204D1C26004105E5 /* main.m */,
+			);
+			path = NativeRNDemo;
+			sourceTree = "<group>";
+		};
+		F751EBDB204D4267004105E5 /* 1.InitRootView */ = {
+			isa = PBXGroup;
+			children = (
+				F751EBDC204D4285004105E5 /* InitRootViewController.h */,
+				F751EBDD204D4285004105E5 /* InitRootViewController.m */,
+			);
+			path = 1.InitRootView;
+			sourceTree = "<group>";
+		};
+		F751EBE8204D4C6B004105E5 /* 2. communication */ = {
+			isa = PBXGroup;
+			children = (
+				F751EBE9204D4C88004105E5 /* CommunicationController.h */,
+				F751EBEA204D4C88004105E5 /* CommunicationController.m */,
+				F751EBEC204E3000004105E5 /* NativetoRNManager.h */,
+				F751EBED204E3000004105E5 /* NativetoRNManager.m */,
+				F751EBEF204E3FD4004105E5 /* RNtoNativeManager.h */,
+				F751EBF0204E3FD4004105E5 /* RNtoNativeManager.m */,
+			);
+			path = "2. communication";
+			sourceTree = "<group>";
+		};
+		F751EBF2204E6CAA004105E5 /* 3.nativeComponentUI */ = {
+			isa = PBXGroup;
+			children = (
+				F751EBF9204E746A004105E5 /* SDCycleScrollView */,
+				F751EBF3204E6D22004105E5 /* TestScrollView.h */,
+				F751EBF4204E6D22004105E5 /* TestScrollView.m */,
+				F751EBF6204E6D7D004105E5 /* TestScrollControllerViewController.h */,
+				F751EBF7204E6D7D004105E5 /* TestScrollControllerViewController.m */,
+				F751EC10204E74F7004105E5 /* TestScrollViewManager.h */,
+				F751EC11204E74F7004105E5 /* TestScrollViewManager.m */,
+			);
+			path = 3.nativeComponentUI;
+			sourceTree = "<group>";
+		};
+		F751EBF9204E746A004105E5 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F751EBFA204E746A004105E5 /* UIView+SDExtension.h */,
+				F751EBFB204E746A004105E5 /* SDCycleScrollView.h */,
+				F751EBFC204E746A004105E5 /* SDCollectionViewCell.h */,
+				F751EBFD204E746A004105E5 /* SDCycleScrollView.m */,
+				F751EBFE204E746A004105E5 /* UIView+SDExtension.m */,
+				F751EBFF204E746A004105E5 /* SDCollectionViewCell.m */,
+				F751EC00204E746A004105E5 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		F751EC00204E746A004105E5 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F751EC01204E746A004105E5 /* TAAbstractDotView.h */,
+				F751EC02204E746A004105E5 /* TADotView.m */,
+				F751EC03204E746A004105E5 /* TAPageControl.m */,
+				F751EC04204E746A004105E5 /* TAAnimatedDotView.m */,
+				F751EC05204E746A004105E5 /* TAAbstractDotView.m */,
+				F751EC06204E746A004105E5 /* TADotView.h */,
+				F751EC07204E746A004105E5 /* TAAnimatedDotView.h */,
+				F751EC08204E746A004105E5 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F751EBC1204D1C26004105E5 /* NativeRNDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F751EBD8204D1C26004105E5 /* Build configuration list for PBXNativeTarget "NativeRNDemo" */;
+			buildPhases = (
+				F062D01679D7C97016B12E22 /* [CP] Check Pods Manifest.lock */,
+				F751EBBE204D1C26004105E5 /* Sources */,
+				F751EBBF204D1C26004105E5 /* Frameworks */,
+				F751EBC0204D1C26004105E5 /* Resources */,
+				BF881892DEA3C969F38709BD /* [CP] Embed Pods Frameworks */,
+				062C764361C081ACC4235570 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeRNDemo;
+			productName = NativeRNDemo;
+			productReference = F751EBC2204D1C26004105E5 /* NativeRNDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F751EBBA204D1C25004105E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					F751EBC1204D1C26004105E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F751EBBD204D1C25004105E5 /* Build configuration list for PBXProject "NativeRNDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F751EBB9204D1C25004105E5;
+			productRefGroup = F751EBC3204D1C26004105E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F751EBC1204D1C26004105E5 /* NativeRNDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F751EBC0204D1C26004105E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F751EBD2204D1C26004105E5 /* LaunchScreen.storyboard in Resources */,
+				F751EBCF204D1C26004105E5 /* Assets.xcassets in Resources */,
+				F751EBCD204D1C26004105E5 /* Main.storyboard in Resources */,
+				F751EC1C204EBB5E004105E5 /* index.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062C764361C081ACC4235570 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNDemo/Pods-NativeRNDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF881892DEA3C969F38709BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNDemo/Pods-NativeRNDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F062D01679D7C97016B12E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeRNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F751EBBE204D1C26004105E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F751EBEB204D4C88004105E5 /* CommunicationController.m in Sources */,
+				F751EC0C204E746A004105E5 /* TADotView.m in Sources */,
+				F751EBEE204E3000004105E5 /* NativetoRNManager.m in Sources */,
+				F751EBD5204D1C26004105E5 /* main.m in Sources */,
+				F751EBDE204D4285004105E5 /* InitRootViewController.m in Sources */,
+				F751EC0A204E746A004105E5 /* UIView+SDExtension.m in Sources */,
+				F751EBC7204D1C26004105E5 /* AppDelegate.m in Sources */,
+				F751EC0D204E746A004105E5 /* TAPageControl.m in Sources */,
+				F751EC0E204E746A004105E5 /* TAAnimatedDotView.m in Sources */,
+				F751EC0F204E746A004105E5 /* TAAbstractDotView.m in Sources */,
+				F751EBF5204E6D22004105E5 /* TestScrollView.m in Sources */,
+				F751EBF1204E3FD4004105E5 /* RNtoNativeManager.m in Sources */,
+				F751EBF8204E6D7D004105E5 /* TestScrollControllerViewController.m in Sources */,
+				F751EBE7204D433C004105E5 /* RootViewController.m in Sources */,
+				F751EC12204E74F7004105E5 /* TestScrollViewManager.m in Sources */,
+				F751EC09204E746A004105E5 /* SDCycleScrollView.m in Sources */,
+				F751EC0B204E746A004105E5 /* SDCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F751EBCB204D1C26004105E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F751EBCC204D1C26004105E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F751EBD0204D1C26004105E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F751EBD1204D1C26004105E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F751EBD6204D1C26004105E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F751EBD7204D1C26004105E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F751EBD9204D1C26004105E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3132C36672674F840C430494 /* Pods-NativeRNDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3C78A8GB9;
+				INFOPLIST_FILE = NativeRNDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leo.NativeRNDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F751EBDA204D1C26004105E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0129ABC4FD8FE8DEB5DBC4 /* Pods-NativeRNDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3C78A8GB9;
+				INFOPLIST_FILE = NativeRNDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leo.NativeRNDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F751EBBD204D1C25004105E5 /* Build configuration list for PBXProject "NativeRNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F751EBD6204D1C26004105E5 /* Debug */,
+				F751EBD7204D1C26004105E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F751EBD8204D1C26004105E5 /* Build configuration list for PBXNativeTarget "NativeRNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F751EBD9204D1C26004105E5 /* Debug */,
+				F751EBDA204D1C26004105E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F751EBBA204D1C25004105E5 /* Project object */;
+}
